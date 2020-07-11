@@ -1,4 +1,4 @@
-    #------Getting User Input------#
+        #------Getting User Input------#
 # get user input for a variable named remind_me
 remind_me=input("What do you want to be reminded about? ")
 
@@ -18,7 +18,7 @@ print("Meeting Time:", meeting_time)
 
 
 
-    #------Print Formatting------#
+        #------Print Formatting------#
 # print the combined strings "Wednesday is" and "in the middle of the week" 
 print("Wednesday is", "in the middle of the week")
 
@@ -30,7 +30,7 @@ print(remind_me, "by", meeting_time, "and", meeting_subject)
 
 
 
-    #------Print Quotation Marks------#
+        #------Print Quotation Marks------#
 # print a string sentence that will display an Apostrophe (')
 print("She told me that 'I' was being sarcastic")
 
@@ -39,7 +39,7 @@ print('She told me that "I" was being sarcastic')
 
 
 
-    #------Boolean String Tests------#
+        #------Boolean String Tests------#
 # creating a vehicle test
 vehicle=input()
 print("All alpha?:", vehicle.isalpha())
@@ -49,7 +49,7 @@ print("Lowercase?:", vehicle.islower())
 
 
 
-    #------String Formatting------#
+        #------String Formatting------#
 # print the string variable capital_this Capitalizing only the first letter
 capitalize_this = "the TIME is Noon."
 print(capitalize_this.capitalize())
@@ -72,7 +72,7 @@ print(format_input.upper(), format_input.lower(), format_input.swapcase(), forma
 
 
 
-    #------Input Formatting------#
+        #------Input Formatting------#
 # get user input for a variable named color
 # modify color to be all lowercase and print
 color=input()
@@ -89,7 +89,7 @@ print(yell_this)
 
 
 
-#------"In" Keyword------#
+        #------"In" Keyword------#
 # get user input for the name of some animals in the variable animals_input
 
 animals_input =input()
