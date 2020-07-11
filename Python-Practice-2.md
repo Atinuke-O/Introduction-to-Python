@@ -48,6 +48,7 @@ print("Capitalized?:", vehicle.isupper())
 print("Lowercase?:", vehicle.islower())
 
 
+
 # String Formatting
 #--print the string variable capital_this Capitalizing only the first letter
 capitalize_this = "the TIME is Noon."
