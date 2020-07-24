@@ -13,7 +13,7 @@ while sum >= 0:
     
 print(sum)
 
-#--------------------------#
+    #--------------------------#
 
 # use a while True loop (forever loop) to give 4 chances for input of a correct color in a rainbow
 # rainbow = "red orange yellow green blue indigo violet"
@@ -33,4 +33,25 @@ while color_choice < 4:
         
 if color_choice == 4:
     print("out of tries")
+    
+    #--------------------------#
         
+# Get input for a book title, keep looping while input is Not in title format (title is every word capitalized)
+
+title = input("Enter a book title: ")
+
+while title.istitle() == False:
+    title = input("Enter a book title: ")
+    
+print(title)
+
+    #--------------------------#
+
+# create a math quiz question and ask for the solution until the input is correct
+
+math_quiz = input("What is the square root of 81? ")
+
+while math_quiz != "9":
+    math_quiz = input("What is the square root of 81? ")
+    
+print(math_quiz)
